@@ -60,8 +60,8 @@ void CartesianProduct(int No,float arr[20],float crr[20])
             else 
             {
                 Mult[i][j] = crr[i];
-                printf("%6.1f",Mult[i][j]);
             }
+               printf("%6.1f",Mult[i][j]);
         }
         printf("\n");
     }
